@@ -1,0 +1,155 @@
+html, body
+{
+
+}
+
+body 
+{
+    margin:               0;
+    padding:              0;
+    background-color:     white;
+    font-family:          Arial, Helvetica, sans-serif;
+    font-size:            1em;
+}
+
+.row:after 
+{
+    display:              block;
+    clear:                both;
+    content:              ""; 
+}
+
+.center 
+{
+    margin-left:          auto !important;
+    margin-right:         auto !important;
+    display:              inline-block !important;
+    text-align:           center; 
+}
+
+#scrollable
+{
+    width:                100%;
+    height:               100%;
+    position:             absolute;
+    cursor:               hand;
+    cursor:               -webkit-grab;
+    cursor:               -moz-grab;
+    cursor:               grab;
+}
+
+.panel
+{
+  padding:                0.8%;
+}
+
+.navigation
+{
+  position:               fixed;
+  bottom:                 0;
+  padding:                0.8%;
+  width:                  100%;
+  height:                 50px;
+  background:             rgba(0,0,0,0.9);
+  color:                  white;
+  font-size:              2.5em;
+}
+
+.row:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+[class^="column-"] 
+{
+    float:                left;
+    -webkit-box-sizing:   border-box;
+    -moz-box-sizing:      border-box;
+    box-sizing:           border-box; 
+      display:inline-block;
+}
+
+[class^="column-"]:last-child 
+{
+  margin-right:           0%; 
+}
+.column-1 {
+  width: 6.5%; }
+
+.column-2 {
+  width: 15.0%; }
+
+.column-3 {
+  width: 23.5%; }
+
+.column-4 {
+  width: 32%; }
+
+.column-5 {
+  width: 40.5%; }
+
+.column-6 {
+  width: 49%; }
+
+.column-7 {
+  width: 57.5%; }
+
+.column-8 {
+  width: 66%; }
+
+.column-9 {
+  width: 74.5%; }
+
+.column-10 {
+  width: 83.0%; }
+
+.column-11 {
+  width: 91.5%; }
+
+.column-12 {
+  width: 100%; }
+
+.row 
+{
+}
+
+.prev{
+  float:left;
+  text-align:center;
+}
+.pips
+{
+  display:flex;
+  float:left;
+  text-align:center;
+  transition:all 1s;
+}
+
+.pip
+{
+  flex:1;
+  text-align:center;
+  float:left;
+  color:white;
+    transition:all 1s;
+}
+
+.deactivated
+{
+  opacity:0.2;
+}
+.active
+{
+  opacity:0.5;
+}
+.next
+{
+  float:left;
+  text-align:center;
+}
+h1, h2, h3, h4 
+{
+  margin: 0;
+  font-weight: 0;
+  letter-spacing: -1px; 
+}
