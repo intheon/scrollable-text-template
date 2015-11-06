@@ -3,7 +3,7 @@
 <head>
 	<title>Scrollable Text Template</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=100%, initial-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
@@ -15,46 +15,20 @@
 	<!-- a 'panel' is a full screen swipeable element -->
 	<!-- first panel -->
 	<div class="panel">
-
-		<img src="./img/yudu-logo.png" width="100%">
-
-		<h1>Who are YUDU?</h1>
-		<p>YUDU are an app developer with over ten years of experience operating in three major marketplaces: <strong>Publishing</strong>, <strong>Corporate Solutions</strong> and <strong>Education.</strong></p>
-
-		<img src="./img/ipad.png" width="100%">
-
-		<h2>How can we help?</h2>
-		<p>YUDU Publisher, our content publishing platform, allows clients to easily upload documents and video, create DRM and permission management, add interactive content and more. Alongside this, we maintain an in-house creative team that can help build interactive books from scratch, create bespoke HTML5 assets or simply help with your branding needs.</p>
-		<p>Regardless of where you are based, we can help you deliver digital content, whether it's publishing a local magazine on a tablet or providing a secure investor relations platform.Our production team are repeatedly praised by clients for their exceptional customer service. If you need to contact our sales teams, you can find YUDU teams in London and New York and supporting partners all over the globe.</p>
-
+	
+		<p>Late in 2014, Cosworth revealed it was to shift to production and supply of fully validated Power Packages, providing component sets designed and engineered to work together as complete solutions.<br /><br />
+		The move allows Cosworth to maximise performance and reliability in its aftermarket products, whilst offering a scalable solution as each subsequent package will integrate seamlessly with its predecessor.</p>
 	</div>
 
 	<div class="panel">
-		<img src="./img/sqn-logo.png" width="100%">
 
-		<h2>Who are Sine Qua Non</h2>
-		<p>Since its inception at the turn of the millennium, Sine Qua Non has built a reputation for innovative and effective communications and sponsorship programmes, along with a growing portfolio of clients.</p>
-		<p>Initially established to fuse a driving passion for technology and sports sponsorship, we have expanded the breadth of our PR, communications and marketing capability to embrace the digital age and now offer services to meet the needs of a range of sectors.</p>
-		<p>Developed through both acquisition and organic growth, our team of passionate and dedicated professionals bring experience coupled with fresh thinking to deliver breakthrough programmes and campaigns for clients.</p>
-		<p>Our senior team members spent many years honing their craft at renowned, global enterprises such as Hewlett Packard, Nortel, Sun Microsystems and Toyota – companies that expected real and measurable progress on business goals and a tangible return on marketing activities. At SQN we combine this foundation of world-class business and process management with innovative thinking and creative flair to build marketing programmes that exceed client goals.</p>
-		<p>Sine Qua Non has been shortlisted for Hollis Sponsorship Association awards in both international and brand categories, and boasts a multi-lingual staff with fluent English, French, Italian and German skills.</p>
-
-	</div>
-
-	<div class="panel">
-		<img src="./img/sqn-logo.png" width="100%">
-
-		<h2>Who are Sine Qua Non</h2>
-		<p>Since its inception at the turn of the millennium, Sine Qua Non has built a reputation for innovative and effective communications and sponsorship programmes, along with a growing portfolio of clients.</p>
-		<p>Initially established to fuse a driving passion for technology and sports sponsorship, we have expanded the breadth of our PR, communications and marketing capability to embrace the digital age and now offer services to meet the needs of a range of sectors.</p>
-		<p>Developed through both acquisition and organic growth, our team of passionate and dedicated professionals bring experience coupled with fresh thinking to deliver breakthrough programmes and campaigns for clients.</p>
-		<p>Our senior team members spent many years honing their craft at renowned, global enterprises such as Hewlett Packard, Nortel, Sun Microsystems and Toyota – companies that expected real and measurable progress on business goals and a tangible return on marketing activities. At SQN we combine this foundation of world-class business and process management with innovative thinking and creative flair to build marketing programmes that exceed client goals.</p>
-		<p>Sine Qua Non has been shortlisted for Hollis Sponsorship Association awards in both international and brand categories, and boasts a multi-lingual staff with fluent English, French, Italian and German skills.</p>
+		<p><span style="color: rgb(103,185,232);">Cosworth’s FA20 Power Packages for the Scion FR-S, Subaru BRZ and Toyota GT86 were the first products to be included in this new strategy and have been well-received by the public and media alike.</span> <br /><br />
+		A Cosworth-modified Toyota GT86 equipped with the Stage 2.0 Power Package was released onto the market earlier this year and has received positive reviews from some of the UK’s leading automotive journalists.<br /><br />
+		Cosworth will halt individual aftermarket component sale at the end of 2015 but will honour outstanding orders and provide a “last time buy” period during which time clients are welcome to buy individual items in stock.</p>
 
 	</div>
 
 	<!-- to add in any more, copy/paste <div class="panel"></div> in below as many times as needed -->
-
 	<!-- navigation -->
 </div>
 
@@ -66,13 +40,18 @@
 		<div class="button next column-4">&gt;</div>
 	</div>
 
-
 <!-- engines... leave as-is -->
 <script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/core.js"></script>
-
+<script type="text/javascript" src="./js/scroll.js"></script>
 <!-- modify this file only -->
 <script type="text/javascript" src="./js/functionality.js"></script>
+<script type='application/javascript' src='./js/fastclick.js'></script>
+<script>
+$(function() {
+    FastClick.attach(document.body);
+});
+</script>
 
 </body>
 </html>
